@@ -76,7 +76,7 @@ for square in range(1,71) : #Creates the 70 positions of the race
        
         if square == 70 :
             while True : 
-                #Breaks the tie in case it happens at the end of the race
+                #Breaks the draw in case it happens at the end of the race
                 
                 tortoise_Square += Tortoise()
                 hare_Square += Hare()
@@ -112,9 +112,9 @@ for square in range(1,71) : #Creates the 70 positions of the race
         
         if tortoise_Square == 70 : #Check if it's the winner of the race, and shows the result
             print('-'*25)
-            print(f'|{"° Winner! °":>15}{"|":>10}')
+            print(f'|{"° Winner! °":>15}{"|":>8}')
             print('~'*25)
-            print(f'|{" TORTOISE WINS!!! YAY!! ":>12}{"|":>1}')
+            print(f'|{" TORTOISE WINS!!! YAY!! ":>12}{"|"}')
             print('-'*25)
            
 
@@ -132,7 +132,7 @@ for square in range(1,71) : #Creates the 70 positions of the race
 
             if hare_Square == 70 : #Check if it's the winner of the race, and shows the result
                 print('-'*25)
-                print(f'|{"°Winner!°":>15}{"|":>10}')
+                print(f'|{"°Winner!°":>15}{"|":>8}')
                 print('~'*25)
                 print(f'|{" Hare Wins!!! YAY!! ":>22}{"|":>3}')
                 print('-'*25)
