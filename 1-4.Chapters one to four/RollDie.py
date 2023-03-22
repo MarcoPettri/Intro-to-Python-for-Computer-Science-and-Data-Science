@@ -18,7 +18,6 @@ axes.set_title(title)
 
 axes.set(xlabel ='Die Value', ylabel= 'Frequency')
 
-
 axes.set_ylim(top=max (frequencies) * 1.20 )
 
 for bar,frequency in zip(axes.patches, frequencies):
